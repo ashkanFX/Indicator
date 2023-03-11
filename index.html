@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+ 
+    <link rel="stylesheet" href="node_modules/charts.css/dist/charts.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  </head>
+  <body style="overflow-x: hidden;">
+    <div class="card text-center">
+      <div class="card-header">
+        <ul class="nav nav-pills card-header-pills">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Indicator</a>
+          </li>
+        </ul>
+      </div>
+     
+    </div>
+    <figure class="ms-5">
+      <blockquote class="blockquote">
+        <p>A well-known quote, contained in a blockquote element.</p>
+      </blockquote>
+      <figcaption class="blockquote-footer">
+        نشان دهنده داده های ما در امار است <strong>X<sub>i</sub></strong>   
+      </figcaption>
+      <figcaption class="blockquote-footer">
+        نشان دهنده فراوانی داده های ما در امار است <strong>F<sub>i</sub></strong>   
+      </figcaption>
+      <figcaption class="blockquote-footer">
+        نشان دهنده فراوانی نسبی داده های ما در امار است <strong>R<sub>i</sub></strong>   
+      </figcaption>
+      <figcaption class="blockquote-footer">
+        نشان دهنده فراوانی تجمعی داده های ما در امار است <strong>G<sub>i</sub></strong>   
+      </figcaption>
+      <figcaption class="blockquote-footer">
+        نشان دهنده فراوانی تجمعی نسبی داده های ما در امار است <strong>S<sub>i</sub></strong>   
+      </figcaption>
+      
+    </figure>
+   <div class="countiner">
+    
+
+    <div class="row">
+        <div class=" col-3 ms-5">
+            <form action="" id="form" >
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Input Number </label>
+                  <input   type="number"  class="form-control" id="inputNumber" aria-describedby="emailHelp">
+                 </div>  
+              
+                 <input type="submit" id="submit"    class="btn btn-primary "/>
+                <input type="submit" value="generate" id="generate"   class="btn btn-success"/>
+                <input type="submit" value=" clear" id="clear"  class="btn btn-danger"/>
+                <div id="alert" class="mt-2">
+               
+                 </div>
+               </form>
+
+        </div>
+        <div class="col-8 mt-1">
+            <div class="table-responsive">
+                <table class="table table-striped
+                table-hover	
+                table-borderless
+                table-primary
+                align-middle">
+                    <thead class="table-light">
+                        <caption></caption>
+                        <tr>
+                            <th>X <sub>i</sub></th>
+                            <th>F <sub>i</sub></th>
+                            <th>R <sub>i</sub></th>
+                            <th>G <sub>i</sub></th>
+                            <th>S <sub>i</sub></th>
+                            
+                        </tr>
+                        </thead>
+                        <tbody class="table-group-divider" id="a">
+                       
+                        
+                          
+                        </tbody>
+                        <tfoot>
+                            
+                        </tfoot>
+                </table>
+            </div>
+            
+        </div>
+    </div>
+   </div>
+    
+
+
+    
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+   <script src="node_modules/chart.js/dist/chart.umd.js"></script>
+   <script  src="using-ts.js"></script>
+
+  </body>
+</html>
